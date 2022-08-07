@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 
-const Details = () => (
+const CharacterDetails = () => (
   <View style={styles.container}>
-    <Text>Details</Text>
+    <Text>Character Details</Text>
   </View>
 );
 
-export default Details;
+export default CharacterDetails;
 
 const styles = StyleSheet.create({
   container: {
