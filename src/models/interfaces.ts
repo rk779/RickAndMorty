@@ -10,6 +10,12 @@ export interface CharacterLocation {
   url: string;
 }
 
+export interface CharacterLocationDetail extends Base {
+  type: string;
+  dimension: string;
+  residents: string[];
+}
+
 export interface Character extends Base {
   status: "Dead" | "Alive" | "unknown";
   species: string;
